@@ -1,0 +1,24 @@
+<package>
+  <name>cute_xqtor_driver</name>
+  <version>0.0.0</version>
+  <description>
+    The package for xQtor servo driver
+  </description>
+  <maintainer email="liucong.cdhaw@gmail.com">Cong Liu</maintainer>
+
+  <license>BSD</license>
+
+  <author>Antons Rebguns</author>
+  <author>Cody Jorgensen</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>diagnostic_msgs</run_depend>
+  <run_depend>dynamixel_driver</run_depend>
+  <run_depend>python-serial</run_depend>
+
+  <export>
+
+  </export>
+</package>

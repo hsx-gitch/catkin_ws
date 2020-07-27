@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: cute_model
+    relative_path: robots/cute_300es.urdf.xacro
+  SRDF:
+    relative_path: config/cute_300es.srdf
+  CONFIG:
+    generated_timestamp: 1502436148

@@ -1,0 +1,9 @@
+cute_arm_controller:
+    controller:
+        package: cute_servo_controllers
+        module: joint_trajectory_action_controller
+        type: JointTrajectoryActionController
+    joint_trajectory_action_node:
+        min_velocity: 0.02
+        constraints:
+            goal_time: 0.25

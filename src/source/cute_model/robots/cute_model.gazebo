@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ros_control plugin -->
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <legacyModeNS>true</legacyModeNS>
+    </plugin>
+  </gazebo>
+  
+  <gazebo reference="cute_base_link">
+    <visual name='visual'>
+     <material>
+       <script>
+         <uri>file://media/materials/scripts/gazebo.material</uri>
+         <name>Gazebo/Grey</name>
+       </script>
+     </material>
+    </visual>
+  </gazebo>
+  
+  <gazebo reference="part1">
+    <visual name='visual'>
+     <material>
+       <script>
+         <uri>file://media/materials/scripts/gazebo.material</uri>
+         <name>Gazebo/Yellow</name>
+       </script>
+     </material>
+    </visual>
+  </gazebo>
+  
+  <gazebo reference="part2">
+    <visual name='visual'>
+     <material>
+       <script>
+         <uri>file://media/materials/scripts/gazebo.material</uri>
+         <name>Gazebo/Grey</name>
+       </script>
+     </material>
+    </visual>
+  </gazebo>
+  
+  <gazebo reference="part3">
+    <visual name='visual'>
+     <material>
+       <script>
+         <uri>file://media/materials/scripts/gazebo.material</uri>
+         <name>Gazebo/Yellow</name>
+       </script>
+     </material>
+    </visual>
+  </gazebo>
+  
+  <gazebo reference="part4">
+    <visual name='visual'>
+     <material>
+       <script>
+         <uri>file://media/materials/scripts/gazebo.material</uri>
+         <name>Gazebo/Grey</name>
+       </script>
+     </material>
+    </visual>
+  </gazebo>
+  
+  <gazebo reference="part5">
+    <visual name='visual'>
+     <material>
+       <script>
+         <uri>file://media/materials/scripts/gazebo.material</uri>
+         <name>Gazebo/Yellow</name>
+       </script>
+     </material>
+    </visual>
+  </gazebo>
+  
+  <gazebo reference="part6">
+    <visual name='visual'>
+     <material>
+       <script>
+         <uri>file://media/materials/scripts/gazebo.material</uri>
+         <name>Gazebo/Grey</name>
+       </script>
+     </material>
+    </visual>
+  </gazebo>
+  
+  <gazebo reference="part7">
+    <visual name='visual'>
+     <material>
+       <script>
+         <uri>file://media/materials/scripts/gazebo.material</uri>
+         <name>Gazebo/Grey</name>
+       </script>
+     </material>
+    </visual>
+  </gazebo>
+  
+  <gazebo reference="claw1">
+    <visual name='visual'>
+     <material>
+       <script>
+         <uri>file://media/materials/scripts/gazebo.material</uri>
+         <name>Gazebo/Grey</name>
+       </script>
+     </material>
+    </visual>
+  </gazebo>
+  
+  <gazebo reference="claw2">
+    <visual name='visual'>
+     <material>
+       <script>
+         <uri>file://media/materials/scripts/gazebo.material</uri>
+         <name>Gazebo/Grey</name>
+       </script>
+     </material>
+    </visual>
+  </gazebo>
+  
+</robot>

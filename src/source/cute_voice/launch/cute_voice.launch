@@ -1,0 +1,5 @@
+<launch>
+    <node pkg = "cute_voice" type = "iat_publish" name = "iat_publish" output = "screen"/>
+    <node pkg = "cute_voice" type = "voice_assistant" name = "voice_assistant" output = "screen"/>
+    <node pkg = "cute_voice" type = "cute_voice_control.py" name = "cute_voice_control" output = "screen"/>
+</launch>

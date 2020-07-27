@@ -1,0 +1,9 @@
+claw_controller_1:
+  type: effort_controllers/JointPositionController
+  joint: claw
+  pid: {p: 50, i: 0.1, d: 0.1}
+
+claw_controller_2:
+  type: effort_controllers/JointPositionController
+  joint: claw_pris2
+  pid: {p: 50, i: 0.1, d: 0.1}
