@@ -1,7 +1,0 @@
-<launch>    
-  <node name="cute_hardware_interface" pkg="cute_ros_control" type="cute_hardware_interface" output="screen"/>
-  
-  <rosparam file="$(find cute_ros_control)/config/cute_arm_control.yaml" command="load"/>
-  <node name="cute_arm_controller_spawner" pkg="controller_manager" type="controller_manager" args="spawn cute_arm_controller" respawn="false" output="screen"/>
-  
-</launch>

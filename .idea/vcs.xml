@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/cute_robot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/cute_robot/aruco_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/cute_robot/easy_handeye" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/cute_robot/ros_tensorflow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/cute_robot/src/find_object_2d" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/cute_robot/vision_visp" vcs="Git" />
+  </component>
+</project>
